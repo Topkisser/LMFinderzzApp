@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_bg"
+    tools:context=".HomeUserActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp">
+
+
+        <ImageButton
+            android:id="@+id/menuBtn"
+            android:layout_width="28dp"
+            android:layout_height="29dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/top_menu_yello" />
+
+        <ImageButton
+            android:id="@+id/logoutBtn"
+            android:layout_width="34dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_back_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="95dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="LMFinderzz"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="italic" />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="40dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/search_bg"
+            android:paddingLeft="30dp"
+            android:paddingTop="18dp"
+            android:text="Load Google Maps"
+            android:textSize="18sp" />
+
+
+        <ImageButton
+            android:id="@+id/searchBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/ic_location" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="88dp"
+            android:background="@drawable/card_1"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="88dp"
+            android:background="@drawable/card_2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="88dp"
+            android:background="@drawable/card_3"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="88dp"
+            android:background="@drawable/card_4"
+            android:layout_gravity="center"
+            android:layout_marginLeft="12dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:id="@+id/parisionBridgeIV"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/card_view_1" />
+
+        <ImageView
+            android:id="@+id/moraineLakeIV"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/card_view_4" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/card_view_1"
+            android:layout_marginLeft="230dp"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historical"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/enchhantedRockIV"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/card_view_3" />
+
+        <ImageView
+            android:id="@+id/theLakeIV"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/card_view_2"
+            android:layout_marginLeft="140dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

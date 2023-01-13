@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "562006223725",
+    "project_id": "lmfinderzz-app",
+    "storage_bucket": "lmfinderzz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562006223725:android:08d15b2d0af996adc8c864",
+        "android_client_info": {
+          "package_name": "com.example.lmfinderzzapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562006223725-pfcd5c3vpm0jbjc0v4av8i1kirt12alv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lmfinderzzapp",
+            "certificate_hash": "dc96b903dd5dfc78931d539846623531309061b9"
+          }
+        },
+        {
+          "client_id": "562006223725-ik02qhqc8q4ussj3ddbc5tgtjfgkjj2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNDBf6ztIZUeyZNx2daPKctnjd7770sDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562006223725-ik02qhqc8q4ussj3ddbc5tgtjfgkjj2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+package com.example.lmfinderzzapp;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.view.View;
+
+import com.example.lmfinderzzapp.databinding.ActivityMainBinding;
+
+public class MainActivity extends AppCompatActivity {
+
+    //view binding
+    private ActivityMainBinding binding;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        //handle LoginBtn click, start the login process
+        binding.loginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+            }
+        });
+
+        //handle skipBtn, continue without Login screen
+        binding.skipBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, GoogleMapsActivity.class));
+            }
+        });
+    }
+}
